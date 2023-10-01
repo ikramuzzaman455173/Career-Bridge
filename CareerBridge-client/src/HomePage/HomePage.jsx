@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
       <Container>
-        <div className='text-center font-bold text-blue-400 text-4xl mt-5'>This Is Our Home Page Components 😃</div>
+        <div className='text-center font-bold text-blue-400 text-4xl mt-5'>This Is Our Home Page  😃</div>
       <p className='font-bold text-center'>Hello .....</p>
       </Container>
 
