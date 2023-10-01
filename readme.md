@@ -38,5 +38,5 @@ Before running the project, make sure you have the following installed on your s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ikramuzzaman455173/Career-Bridge.git && cd Career-Bridge && npm install && npm run dev
+git clone https://github.com/ikramuzzaman455173/Career-Bridge.git && cd Career-Bridge/CareerBridge-client && npm install && npm run dev
 ```
