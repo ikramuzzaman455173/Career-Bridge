@@ -39,6 +39,6 @@ Before running the project, make sure you have the following installed on your s
 
 ```bash
 git clone https://github.com/ikramuzzaman455173/Career-Bridge.git
-cd CareerBridge
+cd Career-Bridge
 npm install # or yarn add
 ```
