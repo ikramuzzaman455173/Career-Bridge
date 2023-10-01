@@ -1,0 +1,222 @@
+[
+  {
+    "id":1,
+    "jobTitle": "Front End Developer",
+    "company": {
+      "name": "Amazi.com, Inc.",
+      "location": "Seattle, Washington, United States",
+      "description": "Amazi.com, Inc. is a multinational technology company...",
+      "founded": "1994",
+      "logo":"https://www.amazon.com/favicon.ico"
+    },
+    "jobDetails": {
+      "bookmark": false,
+      "jobType": "remote",
+      "postedDate": "04/25/2023",
+      "isClosed": true,
+      "jobCategory": "Fresher",
+      "fresherJob": true,
+      "experiencedJob": false,
+      "requiredExp": "2"
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team...",
+    "keyResponsibility": [
+      "Maintain quality of the design process and ensure that when designs...",
+      "Contribute to sketching sessions involving non-designersCreate, iterate...",
+      "Design pixel perfect responsive UI’s and understand that adopting common...",
+      "Ensure design choices are data led by identifying assumptions to test each...",
+      "Accurately estimate design tickets during planning sessions."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as HTML, CSS, JavaScript, and various front-end frameworks like React or Vue.js.",
+      "Understanding of database technologies such as MySQL or MongoDB.",
+      "Familiarity with web development tools and platforms like WordPress, Drupal, or Magento.",
+      "Understanding of responsive design principles and the ability to create responsive web pages.",
+      "Knowledge of search engine optimization (SEO) techniques to improve the visibility of web pages in search engine results."
+    ]
+  },
+  {
+    "id":2,
+    "jobTitle": "Ux Designer",
+    "company": {
+      "name": "PRANING LIMITED COMPANY",
+      "location": "San Francisco, California, USA",
+      "description": "Praning Limited Company is a multinational technology company headquartered...",
+      "founded": "2002",
+      "logo":"https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202103120855"
+    },
+    "jobDetails": {
+      "bookmark": true,
+      "jobType": "remote",
+      "postedDate": "04/24/2023",
+      "isClosed": false,
+      "jobCategory": "Fresher",
+      "fresherJob": true,
+      "experiencedJob": false
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team...",
+    "keyResponsibility": [
+      "Maintain quality of the design process and ensure that when designs...",
+      "Contribute to sketching sessions involving non-designersCreate, iterate...",
+      "Design pixel perfect responsive UI’s and understand that adopting common...",
+      "Ensure design choices are data led by identifying assumptions to test each...",
+      "Accurately estimate design tickets during planning sessions."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as HTML, CSS, JavaScript, and various front-end frameworks like React or Vue.js.",
+      "Understanding of database technologies such as MySQL or MongoDB.",
+      "Familiarity with web development tools and platforms like WordPress, Drupal, or Magento.",
+      "Understanding of responsive design principles and the ability to create responsive web pages.",
+      "Knowledge of search engine optimization (SEO) techniques to improve the visibility of web pages in search engine results."
+    ]
+  },
+  {
+    "id":3,
+    "jobTitle": "Back End Developer",
+    "company": {
+      "name": "Praning Limited Company",
+      "location": "San Francisco, California, USA",
+      "description": "Praning Limited Company is a multinational technology company...",
+      "founded": "2002",
+      "logo":"https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202103120855"
+    },
+    "jobDetails": {
+      "bookmark": true,
+      "jobType": "remote",
+      "postedDate": "04/24/2023",
+      "isClosed": false,
+      "jobCategory": "Experienced",
+      "fresherJob": false,
+      "experiencedJob": true,
+      "requiredExp": "3"
+    },
+    "jobDescription": "As a Back End Developer, you will work within a Product Delivery Team...",
+    "keyResponsibility": [
+      "Collaborate with cross-functional teams to design and develop robust server-side applications...",
+      "Write clean, efficient, and maintainable code that meets the design specifications...",
+      "Contribute to architectural discussions and propose solutions to technical challenges...",
+      "Design and implement data models and database structures to support application features...",
+      "Work with front end developers to integrate user-facing elements with server-side logic..."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as Python, Java, or Node.js...",
+      "Experience with database technologies such as MySQL, PostgreSQL, or MongoDB...",
+      "Familiarity with web frameworks like Django, Flask, Spring Boot, or Express...",
+      "Understanding of API design principles and RESTful services...",
+      "Knowledge of server security best practices and data protection..."
+    ]
+  },
+  {
+    "id":4,
+    "jobTitle": "Front End Developer",
+    "company": {
+      "name": "Praning Limited Company",
+      "location": "San Francisco, California, USA",
+      "description": "Praning Limited Company is a multinational technology company headquartered in an undisclosed location...",
+      "founded": "1/1/2002",
+      "logo":"https://www.amazon.com/favicon.ico"
+    },
+    "jobDetails": {
+      "bookmark": true,
+      "jobType": "remote",
+      "postedDate": "04/24/2023",
+      "isClosed": false,
+      "jobCategory": "Fresher",
+      "fresherJob": true,
+      "experiencedJob": false,
+      "requiredExp": "3"
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team fused with UX, engineering, product and data talent...",
+    "keyResponsibility": [
+      "Maintain quality of the design process and ensure that when designs are translated into code they accurately reflect the design specifications.",
+      "Contribute to sketching sessions involving non-designersCreate, iterate and maintain UI deliverables including sketch files, style guides, high fidelity prototypes, micro interaction specifications and pattern libraries.",
+      "Design pixel perfect responsive UI’s and understand that adopting common interface patterns is better for UX than reinventing the wheel",
+      "Ensure design choices are data led by identifying assumptions to test each sprint, and work with the analysts in your team to plan moderated usability test sessions.",
+      "Accurately estimate design tickets during planning sessions."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as HTML, CSS, JavaScript, and various front-end frameworks like React or Vue.js.",
+      "Understanding of database technologies such as MySQL or MongoDB.",
+      "Familiarity with web development tools and platforms like WordPress, Drupal, or Magento.",
+      "Understanding of responsive design principles and the ability to create responsive web pages.",
+      "Knowledge of search engine optimization (SEO) techniques to improve the visibility of web pages in search engine results."
+    ]
+  },
+  {
+    "id":5,
+    "jobTitle": "Front End Developer",
+    "company": {
+      "name": "Amazi.com, Inc.",
+      "location": "Seattle, Washington, United States",
+      "description": "Amazi.com, Inc. is a multinational technology company...",
+      "founded": "1994",
+      "logo":"https://www.amazon.com/favicon.ico"
+    },
+    "jobDetails": {
+      "bookmark": false,
+      "jobType": "remote",
+      "postedDate": "04/25/2023",
+      "isClosed": true,
+      "jobCategory": "Fresher",
+      "fresherJob": true,
+      "experiencedJob": false,
+      "requiredExp": "2"
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team...",
+    "keyResponsibility": [
+      "Maintain quality of the design process and ensure that when designs...",
+      "Contribute to sketching sessions involving non-designersCreate, iterate...",
+      "Design pixel perfect responsive UI’s and understand that adopting common...",
+      "Ensure design choices are data led by identifying assumptions to test each...",
+      "Accurately estimate design tickets during planning sessions."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as HTML, CSS, JavaScript, and various front-end frameworks like React or Vue.js.",
+      "Understanding of database technologies such as MySQL or MongoDB.",
+      "Familiarity with web development tools and platforms like WordPress, Drupal, or Magento.",
+      "Understanding of responsive design principles and the ability to create responsive web pages.",
+      "Knowledge of search engine optimization (SEO) techniques to improve the visibility of web pages in search engine results."
+    ]
+  },
+  {
+    "id":6,
+    "jobTitle": "Ux Designer",
+    "company": {
+      "name": "PRANING LIMITED COMPANY",
+      "location": "San Francisco, California, USA",
+      "description": "Praning Limited Company is a multinational technology company headquartered...",
+      "founded": "2002",
+      "logo":"https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202103120855"
+    },
+    "jobDetails": {
+      "bookmark": true,
+      "jobType": "remote",
+      "postedDate": "04/24/2023",
+      "isClosed": false,
+      "jobCategory": "Fresher",
+      "fresherJob": true,
+      "experiencedJob": false
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team...",
+    "keyResponsibility": [
+      "Maintain quality of the design process and ensure that when designs...",
+      "Contribute to sketching sessions involving non-designersCreate, iterate...",
+      "Design pixel perfect responsive UI’s and understand that adopting common...",
+      "Ensure design choices are data led by identifying assumptions to test each...",
+      "Accurately estimate design tickets during planning sessions."
+    ],
+    "skillsAndExperience": [
+      "You have at least 3 years’ working experience.",
+      "Proficiency in programming languages such as HTML, CSS, JavaScript, and various front-end frameworks like React or Vue.js.",
+      "Understanding of database technologies such as MySQL or MongoDB.",
+      "Familiarity with web development tools and platforms like WordPress, Drupal, or Magento.",
+      "Understanding of responsive design principles and the ability to create responsive web pages.",
+      "Knowledge of search engine optimization (SEO) techniques to improve the visibility of web pages in search engine results."
+    ]
+  }
+]
