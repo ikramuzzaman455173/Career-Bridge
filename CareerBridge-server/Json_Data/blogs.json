@@ -1,0 +1,38 @@
+[
+  {
+  "id":1,
+  "imgSrc": "https://i.ibb.co/7JwKWM5/career.jpg",
+  "date": "March 20, 2023",
+  "comment": "Thanks for the helpful tips!",
+  "title": "How To Choose A Career That Fits",
+  "content": "Choosing a career is a big decision, so it's important to take the time to explore your options and think about your values, interests, and skills. Research different industries and talk to people in fields that interest you. Consider taking career assessments or working with a career counselor. And remember that your career path may not be a straight line, so be open to exploring new opportunities and taking risks.",
+  "currentTime": "2023-03-26T01:23:45.789Z"
+  },
+  {
+  "id":2,
+  "imgSrc": "https://i.ibb.co/wrpR8RD/networking.jpg",
+  "date": "March 23, 2023",
+  "comment": "Great insights!",
+  "title": "Networking Tips For Job Seekers",
+  "content": "Networking is a powerful tool for job seekers. Attend industry events and join professional groups to meet people in your field. Use LinkedIn to connect with recruiters and potential employers. When networking, focus on building relationships rather than just asking for a job. And don't forget to follow up with your contacts to keep the connection strong.",
+  "currentTime": "2023-03-21T12:34:56.123Z"
+  },
+  {
+  "id":3,
+  "imgSrc": "https://i.ibb.co/4ttvcdJ/interview.jpg",
+  "date": "March 25, 2023",
+  "comment": "Great advice!",
+  "title": "5 Tips For A Successful Job Interview",
+  "content": "If you want to ace your next job interview, make sure to research the company beforehand, practice common interview questions, and dress professionally. During the interview, make eye contact, listen carefully to the interviewer, and showcase your skills and accomplishments. Remember to follow up with a thank-you note afterwards to leave a lasting impression.",
+  "currentTime": "2023-03-19T05:57:27.819Z"
+  },
+  {
+  "id":4,
+  "imgSrc": "https://i.ibb.co/84VB2f7/remote-job.jpg",
+  "date": "March 21, 2023",
+  "comment": "Great advice for remote job seekers!",
+  "title": "Tips For Succeeding In A Remote Job",
+  "content": "Working remotely can be a great way to achieve work-life balance, but it requires discipline and good communication skills. Set up a dedicated workspace and stick to a schedule. Communicate regularly with your team and be responsive to messages and emails. And don't forget to take breaks and stay connected with coworkers to avoid feeling isolated.",
+  "currentTime": "2023-03-23T19:01:34.567Z"
+  }
+  ]

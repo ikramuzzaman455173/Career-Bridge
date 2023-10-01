@@ -2,18 +2,17 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000; // Use port 3000 or process.env.PORT if available
 var cors = require("cors");
-let jobData = require("jobs.json");
+// let jobData = require("Json_Data/jobs.json");
 // Sample job data (replace this with your actual data)
 
 
-app.get("/jobs", (req, res) => {
-  res.json(jobData);
-});
+// app.get("/jobs", (req, res) => {
+//   res.json(jobData);
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
 
 
 // const express = require('express')

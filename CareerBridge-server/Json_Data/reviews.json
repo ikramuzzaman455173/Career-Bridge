@@ -1,0 +1,26 @@
+[
+  {
+  "id":1,
+  "description": "I had the pleasure of reading your post and I must say, it was a great read! Your insights are impressive and I learned a lot from your perspective. I appreciate the time and effort you put into sharing your knowledge. Keep up the great work!",
+  "userImg": "https://i.ibb.co/2WHCbVD/4.jpg",
+  "userName": "John Smith",
+  "userTitle": "Software Developer",
+  "commentTitle": "Great work!"
+  },
+  {
+  "id":2,
+  "description": "Your post was very informative and I found it to be a great resource for me. Your insights are spot-on and I appreciate the time and effort you put into sharing your knowledge. Thanks for helping me stay informed and up-to-date!",
+  "userImg": "https://i.ibb.co/r208nJd/29.jpg",
+  "userName": "Jane Doe",
+  "userTitle": "Marketing Manager",
+  "commentTitle": "Very informative"
+  },
+  {
+  "id":3,
+  "description": "Your post is impressive and very well-written. I especially appreciated your insights on [specific topic]. Thanks for sharing your expertise with us and I look forward to reading more of your content!",
+  "userImg": "https://i.ibb.co/8b0zVvq/rayhan-al-kavey.png",
+  "userName": "Bob Johnson",
+  "userTitle": "Sales Representative",
+  "commentTitle": "Impressive!"
+  }
+  ]
