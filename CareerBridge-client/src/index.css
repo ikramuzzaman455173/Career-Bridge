@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Playfair+Display&family=Poppins&display=swap');
+/* *<===root variable responsive style decleares===>* */
+:root {
+  --big-font-size: 24px;
+  --h1-font-size: 36px;
+  --h2-font-size: 30px;
+  --h3-font-size: 24px;
+  --large-font-size: 20px;
+  --normal-font-size: 16px;
+  --small-font-size: 14px;
+  --tiny-font-size: 12px;
+}
+
+/* Define breakpoints for responsiveness */
+@media (max-width: 768px) {
+  :root {
+    --big-font-size: 20px;
+    --h1-font-size: 28px;
+    --h2-font-size: 24px;
+    --h3-font-size: 20px;
+    --large-font-size: 18px;
+    --normal-font-size: 14px;
+    --small-font-size: 12px;
+    --tiny-font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --big-font-size: 18px;
+    --h1-font-size: 24px;
+    --h2-font-size: 20px;
+    --h3-font-size: 18px;
+    --large-font-size: 16px;
+    --normal-font-size: 12px;
+    --small-font-size: 10px;
+    --tiny-font-size: 8px;
+  }
+}
+
+/* Your other CSS rules */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *<===dark light background===>* */
+.light-background{
+  @apply bg-gradient-to-r from-[#e5f7f4] via-[#daeff3] to-[#efffff]
+}
+
+.dark-background{
+  @apply dark:bg-gradient-to-br dark:from-slate-800 dark:to-indigo-800
+}
+
+.cardbg-light{
+  @apply bg-gradient-to-r from-[#e5f7f4] to-[#efffff]
+}
+
+/* *<===custom border styles ===>* */
+/* .bor{
+  @apply border border-2 border-red-500
+}
+.dark-bor{
+  @apply dark:border dark:border-4 dark:border-green-800
+} */
