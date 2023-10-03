@@ -25,13 +25,13 @@ const Fresher = () => {
               </svg>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Hers
               </p>
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Fresher
               </p>
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Remote
               </p>
             </div>
@@ -43,9 +43,9 @@ const Fresher = () => {
                   alt="Location"
                 />
               </p>
-              <p className="text-lg ms-2">San Francisco, California, USA</p>
+              <p className="text-xl ms-2">San Francisco, California, USA</p>
             </div>
-            <div className="flex justify-start items-center gap-4 sm:gap-5 my-4 flex-wrap ">
+            <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
               <p>
                 <img
                   className="h-5 w-5"
@@ -53,18 +53,18 @@ const Fresher = () => {
                   alt=""
                 />
               </p>
-              <p>04/05/2023</p>
+              <p className="text-lg">04/05/2023</p>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 flex-wrap ">
               <button
                 type="button"
-                className="px-5 p-2 font-semibold rounded-xl duration-[800ms] bg-sky-400 hover:bg-blue-700 hover:text-white dark:text-gray-800 text-lg"
+                className="px-6 p-2 font-semibold rounded-3xl duration-[800ms] bg-sky-400 hover:bg-blue-700 hover:text-white dark:text-gray-800 text-lg"
               >
                 Apply
               </button>
               <button
                 type="button"
-                className="px-5 py-3 font-semibold rounded-xl duration-[800ms] bg-purple-400 hover:bg-teal-400 dark:text-gray-800"
+                className="px-7 py-3 font-semibold rounded-3xl duration-[800ms] bg-purple-400 hover:bg-teal-400 dark:text-gray-800"
               >
                 Job Details
               </button>
@@ -87,13 +87,13 @@ const Fresher = () => {
               </svg>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Hers
               </p>
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Fresher
               </p>
-              <p className="bg-teal-300 rounded-full px-5 uppercase text-lg text-black ">
+              <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
                 Remote
               </p>
             </div>
@@ -105,9 +105,9 @@ const Fresher = () => {
                   alt="Location"
                 />
               </p>
-              <p className="text-lg ms-2">San Francisco, California, USA</p>
+              <p className="text-xl ms-2">San Francisco, California, USA</p>
             </div>
-            <div className="flex justify-start items-center gap-4 sm:gap-5 my-4 flex-wrap ">
+            <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
               <p>
                 <img
                   className="h-5 w-5"
@@ -115,18 +115,18 @@ const Fresher = () => {
                   alt=""
                 />
               </p>
-              <p>04/05/2023</p>
+              <p className="text-lg">04/05/2023</p>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 flex-wrap ">
               <button
                 type="button"
-                className="px-5 p-2 font-semibold rounded-xl duration-[800ms] bg-sky-400 hover:bg-blue-700 hover:text-white dark:text-gray-800 text-lg"
+                className="px-7 p-2 font-semibold rounded-3xl duration-[800ms] bg-sky-400 hover:bg-blue-700 hover:text-white dark:text-gray-800 text-lg"
               >
                 Apply
               </button>
               <button
                 type="button"
-                className="px-5 py-3 font-semibold rounded-xl duration-[800ms] bg-purple-400 hover:bg-teal-400 dark:text-gray-800"
+                className="px-7 py-3 font-semibold rounded-3xl duration-[800ms] bg-purple-400 hover:bg-teal-400 dark:text-gray-800"
               >
                 Job Details
               </button>
@@ -135,12 +135,12 @@ const Fresher = () => {
         </div>
       </div>
       {/* View more button */}
-      <div className="text-center py-14">
+      <div className="text-center pt-20 py-5">
         <button
           type="button"
           className="px-10 py-3 text-xl font-semibold rounded-xl duration-[800ms] bg-cyan-400 hover:bg-purple-600 dark:text-gray-800 hover:text-white"
         >
-          View More
+          View More Jobs
         </button>
       </div>
     </>
@@ -148,3 +148,6 @@ const Fresher = () => {
 };
 
 export default Fresher;
+
+
+

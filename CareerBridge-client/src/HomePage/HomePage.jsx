@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Components/Container/Container'
 import Hero from '../Components/Hero/Hero';
 import Fresher from '../Components/Fresher/Fresher';
+import Experienced from '../Components/Experienced/Experienced';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <p className='font-bold text-center'>Hello .....</p> */}
       <Hero></Hero>
       <Fresher></Fresher>
+      <Experienced></Experienced>
       </Container>
 
     </>
