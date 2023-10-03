@@ -3,7 +3,10 @@ import React from "react";
 const Fresher = () => {
   return (
     <>
-      <h1>jhjhv</h1>
+      <div className="my-14 text-center">
+        <h1 className="text-5xl font-bold mb-5 text-blue-500">Freshers Job</h1>
+        <h1 className="text-2xl font-semibold">Start Your Career!</h1>
+      </div>
       <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-2 gap-10 ">
         {/* <div className=" rounded-md shadow-md sm:w-96 lg:w-1/2 dark:bg-gray-900 dark:text-gray-100 p-10"> */}
         <div className="flex items-start gap-7 flex-col sm:flex-row md:flex-row lg:flex-row relative bg-cyan-200 ps-8 lg:ps-4 py-10 pe-10 rounded-xl shadow-2xl">
@@ -130,11 +133,18 @@ const Fresher = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
+      </div>
+      {/* View more button */}
+      <div className="text-center py-14">
+        <button
+          type="button"
+          className="px-10 py-3 text-xl font-semibold rounded-xl duration-[800ms] bg-cyan-400 hover:bg-purple-600 dark:text-gray-800 hover:text-white"
+        >
+          View More
+        </button>
       </div>
     </>
   );
 };
 
 export default Fresher;
-
