@@ -4,6 +4,7 @@ import Hero from "../Components/Hero/Hero";
 import Fresher from "../Components/Fresher/Fresher";
 import Experienced from "../Components/Experienced/Experienced";
 import Category from "../Components/Category/Category";
+import CareerQuest from "../Components/CareerQuest/CareerQuest";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Hero></Hero>
         <Fresher></Fresher>
         <Experienced></Experienced>
+        <CareerQuest></CareerQuest>
         <Category></Category>
       </Container>
     </>
