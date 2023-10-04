@@ -1,5 +1,5 @@
 import express from 'express'
-import { findUser, newUser } from '../controller/userController.js'
+import { findUser, newUser, updateUser } from '../controller/userController.js'
 
 
 const route = express.Router()
@@ -12,6 +12,6 @@ route.get("/users", findUser)
 //create new user
 route.post("/newUser", newUser)
 
-
+route.put("/userUpdate/:id",updateUser)
 
 export default route
