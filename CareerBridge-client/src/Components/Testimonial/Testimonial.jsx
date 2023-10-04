@@ -4,9 +4,9 @@ const Testimonial = () => {
     return (
       <>
         <section className="my-8 dark:bg-gray-800 dark:text-gray-100">
-          <div className="container flex flex-col items-center mx-auto md:p-10 md:px-12">
-            <h1 className="p-4 text-4xl font-semibold leadi my-10 text-center">
-              What our customers are saying about us
+          <div className="container flex flex-col items-center mx-auto md:p-6 lg:p-6 md:px-12">
+            <h1 className="text-5xl font-semibold leadi my-10 text-center text-sky-800">
+              What our customers saying 
             </h1>
           </div>
           <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
