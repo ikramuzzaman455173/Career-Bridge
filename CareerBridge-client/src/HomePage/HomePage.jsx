@@ -5,6 +5,7 @@ import Fresher from "../Components/Fresher/Fresher";
 import Experienced from "../Components/Experienced/Experienced";
 import Category from "../Components/Category/Category";
 import CareerQuest from "../Components/CareerQuest/CareerQuest";
+import Testimonial from "../Components/Testimonial/Testimonial";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
         <Experienced></Experienced>
         <CareerQuest></CareerQuest>
         <Category></Category>
+        <Testimonial></Testimonial>
       </Container>
     </>
   );
