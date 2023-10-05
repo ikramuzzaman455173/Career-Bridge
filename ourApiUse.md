@@ -89,15 +89,15 @@ CarrierBridge provides a User API that allows you to manage user-related operati
 <a name="user-delete"></a>
 
 4. **Delete User API**
-   - Endpoint: `/api/deleteUser/:id`
+   - Endpoint: `/api/userDelete/:id`
    - Method: DELETE
    - Description: Delete a user from the system, identified by their unique `id`.
 
    **Usage Example:**
-   To delete a user, make a DELETE request to `/api/deleteUser/:id`, where `:id` is the unique identifier of the user you want to delete.
+   To delete a user, make a DELETE request to `/api/userDelete/:id`, where `:id` is the unique identifier of the user you want to delete.
 
    ```
-   DELETE /api/deleteUser/123
+   DELETE /api/userDelete/123
    ```
 
 Please ensure that you replace placeholders like `:id` with actual values when making API requests. Additionally, consider implementing proper authentication and authorization mechanisms as required by the CarrierBridge API. For more specific details and any additional headers or parameters needed for authentication, consult the CarrierBridge API documentation or reach out to the API provider.
