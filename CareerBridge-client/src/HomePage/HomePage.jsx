@@ -8,6 +8,7 @@ import CareerQuest from "../Components/CareerQuest/CareerQuest";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Blogs from "../Components/Blogs/Blogs";
 import Pricing from "../Components/Pricing/Pricing";
+import Stats from "../Components/Stats/Stats";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         <Testimonial></Testimonial>
         <Blogs></Blogs>
         <Pricing></Pricing>
+        <Stats></Stats>
       </Container>
     </>
   );
