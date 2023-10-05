@@ -29,9 +29,24 @@ export const updateUser = async (req, res) => {
     const id = req.params.id
     const userExists = await userModel.findOne({ _id: id })
     if (!userExists) return res.status(404).json({ message: "User not found!" })
-    const updateUser = await userModel.findByIdAndUpdate(id, req, body, { new: true })
+    const updateUser = await userModel.findByIdAndUpdate(id, req.body, { new: true })
+    console.log({ userExists, updateUser });
     res.status(200).json(updateUser)
   } catch (error) {
     res.status(500).json({ message: "Internal server error 500 ⚠" })
+    // console.log({message:error});
+  }
+}
+
+export const deleteUser = async (req, res) => {
+  try {
+    const _id = req.params.id
+    const existUser = await userModel.findOne({ _id })
+    if (!existUser) return res.status(404).json({ message: "User not found!" })
+    await userModel.findByIdAndDelete(_id)
+    res.status(200).json({message:"User deleted successfully!"})
+
+  } catch (error) {
+    res.status(500).json({ message: "Inter server error 500 ⚠" })
   }
 }
