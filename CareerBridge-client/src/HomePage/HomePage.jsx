@@ -6,6 +6,7 @@ import Experienced from "../Components/Experienced/Experienced";
 import Category from "../Components/Category/Category";
 import CareerQuest from "../Components/CareerQuest/CareerQuest";
 import Testimonial from "../Components/Testimonial/Testimonial";
+import Blogs from "../Components/Blogs/Blogs";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
         <CareerQuest></CareerQuest>
         <Category></Category>
         <Testimonial></Testimonial>
+        <Blogs></Blogs>
       </Container>
     </>
   );
