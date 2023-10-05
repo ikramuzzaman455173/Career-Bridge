@@ -14,15 +14,20 @@ const Fresher = () => {
             <img src="../../../public/logo.png" alt="" />
           </div>
           <div className="flex-col w-full">
-            <div className="flex justify-between items-center mb-4">
+            <div
+              className="flex justify-between items-center mb-4 "
+              data-tip="hello"
+            >
               <p className="text-lg">Frontend Developer</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="w-5 h-5 fill-current"
-              >
-                <path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
-              </svg>
+              <div className="tooltip" data-tip="Bookmark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  className="w-5 h-5 fill-current "
+                >
+                  <path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
+                </svg>
+              </div>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
               <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
@@ -78,13 +83,15 @@ const Fresher = () => {
           <div className="flex-col w-full">
             <div className="flex justify-between items-center mb-4">
               <p className="text-lg">Frontend Developer</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="w-5 h-5 fill-current"
-              >
-                <path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
-              </svg>
+              <div className="tooltip" data-tip="Bookmark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  className="w-5 h-5 fill-current "
+                >
+                  <path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
+                </svg>
+              </div>
             </div>
             <div className="flex justify-start items-center gap-4 sm:gap-5 my-5 flex-wrap ">
               <p className="bg-teal-300 rounded-full px-5 py-1 uppercase text-lg text-black ">
@@ -148,6 +155,5 @@ const Fresher = () => {
 };
 
 export default Fresher;
-
 
 
