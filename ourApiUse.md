@@ -26,6 +26,18 @@
 
 ---
 
+
+- [Blog Api Blog API Documentation](#blog)
+  - [Blog Get Api](#blog-get)
+  - [Blog Add Api](#blog-add)
+  - [Blog Update Api](#blog-update)
+  - [Blog Delete Api](#blog-delete)
+
+---
+
+
+
+
 <a name="user"></a>
 
 **User API Documentation**
@@ -197,6 +209,95 @@ Please ensure that you replace placeholders like `:id` with actual values when m
 
 ##### [Go to top:arrow_up: ](#top)
 
+
+---
+
+
+<a name="blog"></a>
+
+**Blog API Documentation**
+
+CarrierBridge provides a Blog API that allows you to manage blog-related operations. This API includes the following endpoints:
+
+<a name="blog-get"></a>
+
+1. **Blog Get API**
+
+   - Endpoint: `/api/blogs`
+   - Method: GET
+   - Description: Retrieve a list of all blogs in the system.
+
+   **Usage Example:**
+   To fetch a list of all blogs, make a GET request to `/api/blogs`. This will return a JSON response containing blog data.
+
+##### [Go to top:arrow_up: ](#top)
+
+<a name="blog-add"></a>
+
+2. **Blog Add API**
+
+   - Endpoint: `/api/newBlog`
+   - Method: POST
+   - Description: Add a new blog to the system.
+
+   **Usage Example:**
+   To add a new blog, make a POST request to `/api/newBlog` with a JSON request body containing blog information, such as blogname, email, and password. The server will create a new blog and return a confirmation message.
+
+   ```json
+   POST /api/newBlog
+   Request Body:
+
+   {
+   "imgSrc": "https://i.ibb.co/4ttvcdJ/interview.jpg",
+  "date": "March 25, 2023",
+  "comment": "Great advice!",
+  "title": "5 Tips For A Successful Job Interview",
+       // Add other blog details here as needed
+   }
+   ```
+
+##### [Go to top:arrow_up: ](#top)
+
+<a name="blog-update"></a>
+
+3. **Blog Update API**
+
+   - Endpoint: `/api/blogUpdate/:id`
+   - Method: PUT or PATCH
+   - Description: Update an existing blog's information, identified by their unique `id`.
+
+   **Usage Example:**
+   To update a blog's information, make a PUT or PATCH request to `/api/blogUpdate/:id`, where `:id` is the unique identifier of the blog you want to update. Provide a JSON request body with the fields you wish to update.
+
+   ```json
+   PUT /api/blogUpdate/123
+   Request Body:
+   {
+       "title": "Tips For Succeeding In A Remote Job",
+       // Update other blog details here as needed
+   }
+   ```
+
+##### [Go to top:arrow_up: ](#top)
+
+<a name="blog-delete"></a>
+
+4. **Delete Blog API**
+
+   - Endpoint: `/api/blogDelete/:id`
+   - Method: DELETE
+   - Description: Delete a blog from the system, identified by their unique `id`.
+
+   **Usage Example:**
+   To delete a blog, make a DELETE request to `/api/blogDelete/:id`, where `:id` is the unique identifier of the blog you want to delete.
+
+   ```
+   DELETE /api/blogDelete/123
+   ```
+
+Please ensure that you replace placeholders like `:id` with actual values when making API requests. Additionally, consider implementing proper authentication and authorization mechanisms as required by the CarrierBridge API. For more specific details and any additional headers or parameters needed for authentication, consult the CarrierBridge API documentation or reach out to the API provider.
+
+##### [Go to top:arrow_up: ](#top)
 
 
 
