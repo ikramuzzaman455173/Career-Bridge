@@ -5,10 +5,9 @@ const Hero = () => {
     <section className="dark:bg-gray-800 bg-emerald-100 dark:text-gray-100">
       <div className="container flex flex-col justify-center px-5 gap-5 mx-auto sm:py-8 lg:py-10 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-5xl font-bold leadi sm:text-6xl">
-            Welcome <br /> to our
-            <span className="dark:text-violet-400 mx-3">Careers </span> Page !
-          </h1>
+          <div className="text-6xl w-fit font-bold from-[#4966a3] via-[#137ba7] to-[#5297d0] bg-gradient-to-r bg-clip-text text-transparent">
+            <p>Welcome to our Career Page</p>
+          </div>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
             Explore job opportunities with our company and learn how you can
             join our team.
