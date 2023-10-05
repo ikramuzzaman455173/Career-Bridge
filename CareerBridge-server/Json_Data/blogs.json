@@ -1,6 +1,5 @@
 [
   {
-  "id":1,
   "imgSrc": "https://i.ibb.co/7JwKWM5/career.jpg",
   "date": "March 20, 2023",
   "comment": "Thanks for the helpful tips!",
@@ -9,7 +8,6 @@
   "currentTime": "2023-03-26T01:23:45.789Z"
   },
   {
-  "id":2,
   "imgSrc": "https://i.ibb.co/wrpR8RD/networking.jpg",
   "date": "March 23, 2023",
   "comment": "Great insights!",
@@ -18,7 +16,6 @@
   "currentTime": "2023-03-21T12:34:56.123Z"
   },
   {
-  "id":3,
   "imgSrc": "https://i.ibb.co/4ttvcdJ/interview.jpg",
   "date": "March 25, 2023",
   "comment": "Great advice!",
@@ -27,7 +24,6 @@
   "currentTime": "2023-03-19T05:57:27.819Z"
   },
   {
-  "id":4,
   "imgSrc": "https://i.ibb.co/84VB2f7/remote-job.jpg",
   "date": "March 21, 2023",
   "comment": "Great advice for remote job seekers!",
