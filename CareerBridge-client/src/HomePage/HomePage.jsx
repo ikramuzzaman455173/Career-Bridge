@@ -7,6 +7,7 @@ import Category from "../Components/Category/Category";
 import CareerQuest from "../Components/CareerQuest/CareerQuest";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Blogs from "../Components/Blogs/Blogs";
+import Pricing from "../Components/Pricing/Pricing";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
         <Category></Category>
         <Testimonial></Testimonial>
         <Blogs></Blogs>
+        <Pricing></Pricing>
       </Container>
     </>
   );
