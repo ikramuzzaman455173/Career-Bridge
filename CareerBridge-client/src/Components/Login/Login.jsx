@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <>
       <div className="flex items-center justify-center my-10">
-        <div className="w-full max-w-md p-4 rounded-md cardbg-light cardbg-dark shadow sm:p-8 text-darkColor dark:text-colorWhite ">
+        <div className="w-full max-w-md p-4 rounded-md bg-indigo-600 text-white cardbg-dark shadow sm:p-8  dark:text-colorWhite ">
           <h2 className="mb-3 text-h2 font-semibold text-center font-lightFont dark:font-darkFont">
             Login to your account
           </h2>
@@ -75,9 +75,9 @@ const Login = () => {
             </div>
             <button
               type="button"
-              className="w-full px-8 py-3 font-semibold rounded-md bg-blue-400 dark:bg-blue-200  dark:text-gray-900"
+              className="w-full px-8 py-3 font-semibold rounded-md bg-blue-800 text-white dark:bg-blue-200 text-xl dark:text-gray-900"
             >
-              Sign in
+              Sign In
             </button>
           </form>
           <p className="text text-center dark:text-white mt-5">
