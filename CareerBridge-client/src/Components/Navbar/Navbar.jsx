@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -84,14 +85,15 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-primary rounded-full px-6 me-3 lg:me-12">
-            Login
-          </a>
+          <Link to="/login">
+            <a className="btn btn-primary rounded-full px-6 me-3 lg:me-12">
+              Login
+            </a>
+          </Link>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Navbar
-
+export default Navbar;
