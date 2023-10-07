@@ -26,6 +26,7 @@ const HomePage = () => {
         <Blogs></Blogs>
         <Pricing></Pricing>
         <Stats></Stats>
+        
       </Container>
     </>
   );
