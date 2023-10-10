@@ -9,6 +9,7 @@ import Testimonial from "../Components/Testimonial/Testimonial";
 import Blogs from "../Components/Blogs/Blogs";
 import Pricing from "../Components/Pricing/Pricing";
 import Stats from "../Components/Stats/Stats";
+import Subscribe from "../Components/Subscribe/Subscribe";
 
 const HomePage = () => {
   return (
@@ -26,7 +27,7 @@ const HomePage = () => {
         <Blogs></Blogs>
         <Pricing></Pricing>
         <Stats></Stats>
-        
+        <Subscribe></Subscribe>
       </Container>
     </>
   );
